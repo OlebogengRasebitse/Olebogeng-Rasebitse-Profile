@@ -6,13 +6,33 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    background-color: #133;
-    color: white;
-    text-align: center;
+
+/* HEADER */
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Align horizontally in the center */
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 190px;
+    padding-bottom: 140px;
 }
+
+.header-content {
+    display: flex;
+    align-items: center; /* Align vertically in the center */
+
+    gap: 100px; /* Adds spacing between the divs */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+
+.header-text {
+    font-family: Arial, sans-serif; /* Adjust font-family as needed */
+  
+    flex: 1; /* Allow text to grow and take available space */
+}
+
+
 
 .navbar {
     position: fixed;
@@ -60,6 +80,10 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* PROFILE IMAGE */
+
+
 
 section {
     padding: 20px;
