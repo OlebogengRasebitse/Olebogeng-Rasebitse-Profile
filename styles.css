@@ -9,18 +9,25 @@ body {
 
 /* HEADER */
 
+#logo {
+    font-size: 25px;
+   padding-left: 20px;
+    margin-right: auto; /* Push logo to the left */
+}
+
+
+
 .header-container {
     display: flex;
     justify-content: center; /* Align horizontally in the center */
     padding: 20px;
     padding-top: 190px;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 }
 
 .header-content {
     display: flex;
     align-items: center; /* Align vertically in the center */
-
     gap: 100px; /* Adds spacing between the divs */
     padding: 20px; /* Add padding for better spacing */
 }
@@ -28,7 +35,7 @@ body {
 
 .header-text {
     font-family: Arial, sans-serif; /* Adjust font-family as needed */
-  
+    font-size: 25px; /* Enlarge heading font size */
     flex: 1; /* Allow text to grow and take available space */
 }
 
@@ -39,8 +46,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    padding: 10px 0;
+   border-bottom: 1px solid #333;
+    padding: 20px 0;
     text-align: center;
     z-index: 1000;
     display: flex;
@@ -48,14 +55,14 @@ body {
   }
   
   .navbar a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px 20px;
     transition: background-color 0.3s;
   }
   
   .navbar a:hover {
-    background-color: #555;
+    border-bottom: solid turquoise;
   }
   
   .content {
