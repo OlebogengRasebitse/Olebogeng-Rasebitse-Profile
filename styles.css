@@ -91,6 +91,25 @@ a {
 /* PROFILE IMAGE */
 
 
+/* ABOUT */
+#about {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center; /* Center align the content */
+
+}
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px; /* Limit the width of the paragraph */
+    margin: 0 auto; /* Center align the paragraph */
+}
 
 section {
     padding: 20px;
