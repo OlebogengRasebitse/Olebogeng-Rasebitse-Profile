@@ -52,6 +52,7 @@ body {
     z-index: 1000;
     display: flex;
     justify-content: flex-end;
+    background-color: white;
   }
   
   .navbar a {
@@ -88,6 +89,48 @@ a {
     color: white;
 }
 
+/* BUTTONS */
+/* Button 1 */
+.button1 {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    transition-duration: 0.4s; /* Transition duration */
+    cursor: pointer; /* Cursor pointer */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .button1:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  /* Button 2 */
+  .button2 {
+    background-color: #008CBA; /* Blue background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    transition-duration: 0.4s; /* Transition duration */
+    cursor: pointer; /* Cursor pointer */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .button2:hover {
+    background-color: #005f6b; /* Darker blue background on hover */
+  }
+  
+
 /* PROFILE IMAGE */
 
 
@@ -122,6 +165,31 @@ footer {
     padding: 10px;
 }
 
+#contact {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
 
 /* Add this to the end of styles.css */
 
