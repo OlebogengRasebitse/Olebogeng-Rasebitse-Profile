@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="global.css">
     <title>Profesional Portfolio</title>
-    <<script src="https://kit.fontawesome.com/070983ba67.js" crossorigin="anonymous">
-        </script>
+    <script src="https://kit.fontawesome.com/070983ba67.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,8 +18,8 @@
             </div>
             <a href="#">Home</a>
             <a href="#about">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
     <header class="header-container">
@@ -29,11 +28,9 @@
                 <p>Hi there, i'm</p>
                 <h1>Patience Olebogeng <br> Rasebitse</h1>
                 <p> and im an aspiring Software Developer</p>
-                <a href="your link here"> <i class="fa-solid fa-square-envelope"></i></a>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-padlet"></i>
-
+               
+                <a href="#contact"><button class="button button1">Contact Me</button></a>
+                <button class="button button2">Download CV</button>
             </div>
             <div class="header-image">
                 <img src="Images/laptopwave.png" style="height:250px;" alt="Profile Picture">
@@ -48,13 +45,79 @@
             front-end and backend development. I am eager to contribute to innovative projects and learn from
             experienced professionals.</p>
     </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
+    <section id="projects">
+        <h2>Projects</h2>
         <!-- Add projects here -->
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Add contact information and a form here.</p>
+        <h2 class="section-header">Contact</h2>
+        <div class="contact-wrapper">
+  
+            <!-- Left contact page --> 
+              
+              <form id="contact-form" class="form-horizontal" role="form">
+                 
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                  </div>
+                </div>
+          
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                  </div>
+                </div>
+          
+                <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                
+                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                  <div class="alt-send-button">
+                    <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                  </div>
+                
+                </button>
+                
+              </form>
+              
+            <!-- Left contact page --> 
+              
+                <div class="direct-contact-container">
+          
+                  <ul class="contact-list">
+                    <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+                    
+                    <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                    
+                    <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+                    
+                  </ul>
+          
+                  <hr>
+                  <ul class="social-media-list">
+                    <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                      <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>       
+                  </ul>
+                  <hr>
+        <div class="icons">
+            <!-- <a href="mailto:patiencerasebitse.com">
+            <i class="fas fa-square-envelope"></i>
+          </a> -->
+          <i class="fa-brands fa-github fa-2x" style="margin-right: 30px; "></i>
+            <i class="fa-brands fa-linkedin fa-2x" style="margin-right: 30px;"></i>
+            <i class="fa-brands fa-padlet fa-2x"></i>
+        </div>
+    </div>
     </section>
     <footer>
         <p> Made with ❤️ by Olebogeng Rasebitse &copy; 2024</p>
