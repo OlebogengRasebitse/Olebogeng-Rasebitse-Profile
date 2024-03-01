@@ -23,7 +23,7 @@ Explore my portfolio using the navigation bar at the top of the page. Each secti
 * Feel free to browse the code and explore.
 * This portfolio is still under development, so expect further improvements and additions.
 
-**I am always open to feedback and collaboration. If you have any questions or suggestions, please don't hesitate to contact me!**
+**I am always open to feedback and collaboration. If you have any questions or suggestions, please don't hesitate to contact me at patiencerasebitse@gmail.com!**
 
 
 
