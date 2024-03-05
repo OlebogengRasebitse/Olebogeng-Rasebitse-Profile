@@ -165,9 +165,37 @@ footer {
     padding: 10px;
 }
 
+/* PROJECTS */
+
+#projects {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center; /* Center align the content */
+
+}
+
+.project-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
 /* CONTACT FORM */
 
+.section-header {
+    background-color: #f8f8f8;
+    /* padding: 50px; */
+    text-align: center; 
+}
 
+#contact {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
     
 .contact-wrapper {
     background-color: #fff;
@@ -185,6 +213,7 @@ footer {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    background-color: yellow;
 }
 
 .form-group input {
@@ -194,7 +223,12 @@ footer {
     border-radius: 4px;
 }
 
-.form-group button {
+.form-group.button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group.button button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -202,11 +236,16 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    align-self: flex-start;
 }
+
+
 
 .form-group button:hover {
     background-color: #0056b3;
 }
+
+
 /* Add this to the end of styles.css */
 
 @media only screen and (max-width: 600px) {
