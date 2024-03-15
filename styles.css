@@ -11,65 +11,71 @@ body {
 
 #logo {
     font-size: 25px;
-   padding-left: 20px;
-    margin-right: auto; /* Push logo to the left */
+    padding-left: 20px;
+    margin-right: auto;
+    /* Push logo to the left */
 }
-
 
 
 .header-container {
     display: flex;
-    justify-content: center; /* Align horizontally in the center */
+    justify-content: center;
+    /* Align horizontally in the center */
     padding: 20px;
-    padding-top: 190px;
+    padding-top: 110px;
     padding-bottom: 100px;
 }
 
 .header-content {
     display: flex;
-    align-items: center; /* Align vertically in the center */
-    gap: 100px; /* Adds spacing between the divs */
-    padding: 20px; /* Add padding for better spacing */
+    align-items: center;
+    /* Align vertically in the center */
+    gap: 100px;
+    /* Adds spacing between the divs */
+    padding: 20px;
+    /* Add padding for better spacing */
 }
 
 
 .header-text {
-    font-family: Arial, sans-serif; /* Adjust font-family as needed */
-    font-size: 25px; /* Enlarge heading font size */
-    flex: 1; /* Allow text to grow and take available space */
+    font-family: Arial, sans-serif;
+    /* Adjust font-family as needed */
+    font-size: 30px;
+    /* Enlarge heading font size */
+    flex: 2;
+    /* Allow text to grow and take available space */
 }
-
-
 
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-   border-bottom: 1px solid #333;
-    padding: 20px 0;
+    border-bottom: 1px solid #333; /* Bottom navbar line */
+    padding: 10px 0;
     text-align: center;
     z-index: 1000;
     display: flex;
     justify-content: flex-end;
     background-color: white;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px 20px;
     transition: background-color 0.3s;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     border-bottom: solid turquoise;
-  }
-  
-  .content {
-    margin-top: 60px; /* Adjust according to navbar height */
+}
+
+.content {
+    margin-top: 60px;
+    /* Adjust according to navbar height */
     padding: 20px;
-  }
+}
 
 
 ul {
@@ -86,50 +92,82 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 
 /* BUTTONS */
 
 .button1 {
-    background-color: #4CAF50; /* Green background */
-    border: none; /* No border */
-    color: white; /* White text */
-    padding: 15px 32px; /* Padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Display as inline-block */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin */
-    transition-duration: 0.4s; /* Transition duration */
-    cursor: pointer; /* Cursor pointer */
-    border-radius: 8px; /* Rounded corners */
-  }
-  
-  .button1:hover {
-    background-color: #45a049; /* Darker green background on hover */
-  }
-  
-  /* Button 2 */
-  .button2 {
-    background-color: #008CBA; /* Blue background */
-    border: none; /* No border */
-    color: white; /* White text */
-    padding: 15px 32px; /* Padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Display as inline-block */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin */
-    transition-duration: 0.4s; /* Transition duration */
-    cursor: pointer; /* Cursor pointer */
-    border-radius: 8px; /* Rounded corners */
-  }
-  
-  .button2:hover {
-    background-color: #005f6b; /* Darker blue background on hover */
-  }
-  
+    background-color: #4CAF50;
+    /* Green background */
+    border: none;
+    /* No border */
+    color: white;
+    /* White text */
+    padding: 15px 32px;
+    /* Padding */
+    text-align: center;
+    /* Center text */
+    text-decoration: none;
+    /* No underline */
+    display: inline-block;
+    /* Display as inline-block */
+    font-size: 16px;
+    /* Font size */
+    margin: 4px 2px;
+    /* Margin */
+    transition-duration: 0.4s;
+    /* Transition duration */
+    cursor: pointer;
+    /* Cursor pointer */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.button1:hover {
+    background-color: #45a049;
+    /* Darker green background on hover */
+}
+
+/* Button 2 */
+.button2 {
+    background-color: #008CBA;
+    /* Blue background */
+    border: none;
+    /* No border */
+    color: white;
+    /* White text */
+    padding: 15px 32px;
+    /* Padding */
+    text-align: center;
+    /* Center text */
+    text-decoration: none;
+    /* No underline */
+    display: inline-block;
+    /* Display as inline-block */
+    font-size: 16px;
+    /* Font size */
+    margin: 4px 2px;
+    /* Margin */
+    transition-duration: 0.4s;
+    /* Transition duration */
+    cursor: pointer;
+    /* Cursor pointer */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.button2:hover {
+    background-color: #005f6b;
+    /* Darker blue background on hover */
+}
+
+
+.connect-icons {
+    padding-top: 30px;
+
+}
+
 
 /* PROFILE IMAGE */
 
@@ -138,20 +176,23 @@ a {
 #about {
     background-color: #f8f8f8;
     padding: 50px;
-    text-align: center; /* Center align the content */
-
+    text-align: center;
+    /* Center align the content */
 }
-  
-  #about h2 {
+
+#about h2 {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  
-  #about p {
+    padding-top: 40px;
+}
+
+#about p {
     font-size: 16px;
     line-height: 1.6;
-    max-width: 800px; /* Limit the width of the paragraph */
-    margin: 0 auto; /* Center align the paragraph */
+    max-width: 800px;
+    /* Limit the width of the paragraph */
+    margin: 0 auto;
+    /* Center align the paragraph */
 }
 
 section {
@@ -166,11 +207,14 @@ footer {
 }
 
 /* PROJECTS */
+#projects h2 {
+    padding-top: 55px;
+}
 
 #projects {
     background-color: #f8f8f8;
-    padding: 50px;
-    text-align: center; /* Center align the content */
+    text-align: center;
+    /* Center align the content */
 
 }
 
@@ -183,12 +227,15 @@ footer {
 }
 
 /* CONTACT FORM */
+.section-header {
+    /* padding: 50px; */
+    text-align: center;
+}
 
 .section-header {
-    background-color: #f8f8f8;
-    /* padding: 50px; */
-    text-align: center; 
+    background-color: darkcyan;
 }
+
 
 #contact {
     display: flex;
@@ -196,7 +243,7 @@ footer {
     padding: 50px;
     text-align: center;
 }
-    
+
 .contact-wrapper {
     background-color: #fff;
     padding: 40px;
@@ -239,10 +286,15 @@ footer {
     align-self: flex-start;
 }
 
-
-
 .form-group button:hover {
     background-color: #0056b3;
+}
+
+
+/* MEESSAGE INPUT FIELD */
+
+.large-comment-box {
+    height: 100px;
 }
 
 
