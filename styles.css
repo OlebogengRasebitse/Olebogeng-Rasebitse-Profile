@@ -227,6 +227,11 @@ footer {
 }
 
 /* CONTACT FORM */
+
+.contact-name h2 {
+    background-color: chartreuse;
+}
+
 .section-header {
     /* padding: 50px; */
     text-align: center;
@@ -234,14 +239,15 @@ footer {
 
 .section-header {
     background-color: darkcyan;
+    
 }
-
 
 #contact {
     display: flex;
     justify-content: center;
     padding: 50px;
     text-align: center;
+    padding-top: 70px;
 }
 
 .contact-wrapper {
