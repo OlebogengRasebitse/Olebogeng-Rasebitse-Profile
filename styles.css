@@ -207,7 +207,7 @@ footer {
 
 /* PROJECTS */
 #projects h2 {
-    padding-top: 55px;
+    padding-top: 55px; /*Spacing bellow navbar*/
 }
 
 #projects {
@@ -227,6 +227,10 @@ footer {
 
 /* CONTACT FORM */
 
+/* #contact h2{
+    background-color: #0056b3;
+} */
+
 .contact-name h2 {
     background-color: chartreuse;
 }
@@ -236,10 +240,7 @@ footer {
     text-align: center;
 }
 
-.section-header {
-    background-color: darkcyan;
-    
-}
+
 
 #contact {
     display: flex;
@@ -250,11 +251,12 @@ footer {
 }
 
 .contact-wrapper {
-    background-color: #fff;
+    
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
+    align-items: center;
 }
 
 .form-group {
