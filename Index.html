@@ -69,29 +69,30 @@
     <div id="contact">
         <h2>Contact</h2>
     </div>
-    <section>
-        <div class="contact-wrapper">
-            <h3>Get in touch with me</h3>
-            <form target="_blank" action="contact.php" method="POST">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Enter Email Address" required>
-                </div>
-                <div class="form-group">
-                    <input type="subject" id="subject" name="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" id="message" name="message" placeholder="Message" required
-                        class="large-comment-box">
-                </div>
-                <div class="form-group button">
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
-        </div>
-    </section>
+    <section class="form-container">
+        <form action="https://formcarry.com/s/8V__SqKZ_ll" method="POST" enctype="multipart/form-data">
+          
+          <div class="formcarry-block">
+            <label for="fc-generated-1-name">Full Name</label>
+            <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
+          </div>
+            
+          <div class="formcarry-block">
+            <label for="fc-generated-1-email">Your Email Address</label>
+            <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+          </div>
+            
+          <div class="formcarry-block">
+            <label for="fc-generated-1-message">Your message</label>
+            <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
+          </div>
+            
+          <div class="formcarry-block">  
+            <button type="submit">Send</button>
+          </div>
+        
+        </form>
+      </section>
     <footer>
         <p> Made with ❤️ by Olebogeng Rasebitse &copy; 2024</p>
     </footer>
