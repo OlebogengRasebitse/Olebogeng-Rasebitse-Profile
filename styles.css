@@ -1,11 +1,11 @@
 /* styles.css */
 
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 
 /* HEADER */
@@ -136,8 +136,8 @@ a {
     /* Blue background */
     border: none;
     /* No border */
-    color: white;
-    /* White text */
+    color: rgb(248, 248, 248);
+    /* color needs to be fixed*/
     padding: 15px 32px;
     /* Padding */
     text-align: center;
@@ -163,18 +163,12 @@ a {
     /* Darker blue background on hover */
 }
 
-
 .connect-icons {
     padding-top: 30px;
 }
 
-
-/* PROFILE IMAGE */
-
-
 /* ABOUT */
 #about {
-    background-color: #f8f8f8;
     padding: 50px;
     text-align: center;
     /* Center align the content */
@@ -200,10 +194,9 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 20px;
+    font-weight: normal;
 }
 
 /* PROJECTS */
@@ -212,14 +205,12 @@ footer {
 }
 
 #projects {
-    background-color: #f8f8f8;
     text-align: center;
     /* Center align the content */
 
 }
 
 .project-container {
-    background-color: #fff;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -273,7 +264,7 @@ footer {
     --fc-border-hover-color: #babbc4;
     --fc-field-hover-text-color: #B3B8D0;
 
-    --fc-border-active-color: #1463FF;
+    --fc-border-active-color: #696969;
   }
 
   .form-container * {
