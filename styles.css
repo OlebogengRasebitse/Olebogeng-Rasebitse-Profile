@@ -69,7 +69,25 @@
 }
 
 .navbar a:hover {
-    border-bottom: solid turquoise;
+
+    /* Scale the text to 1.2 times its original size */
+    transform: scale(1.2);
+    /* Optionally, you can add a smooth transition effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -99,7 +117,7 @@ a {
 /* BUTTONS */
 
 .button1 {
-    background-color: #4CAF50;
+    background-color: hsla(144 , 100%, 54%);
     /* Green background */
     border: none;
     /* No border */
@@ -109,8 +127,6 @@ a {
     /* Padding */
     text-align: center;
     /* Center text */
-    text-decoration: none;
-    /* No underline */
     display: inline-block;
     /* Display as inline-block */
     font-size: 16px;
@@ -130,20 +146,19 @@ a {
     /* Darker green background on hover */
 }
 
+.button2 a {
+  color: white;
+
+}
+
 /* Button 2 */
 .button2 {
-    background-color: #008CBA;
+    background-color: hsla(144 , 100%, 54%);
     /* Blue background */
-    border: none;
-    /* No border */
-    color: rgb(248, 248, 248);
-    /* color needs to be fixed*/
     padding: 15px 32px;
     /* Padding */
     text-align: center;
     /* Center text */
-    text-decoration: none;
-    /* No underline */
     display: inline-block;
     /* Display as inline-block */
     font-size: 16px;
@@ -156,12 +171,12 @@ a {
     /* Cursor pointer */
     border-radius: 8px;
     /* Rounded corners */
-}
+    border: none;
+ }
 
 .button2:hover {
-    background-color: #005f6b;
-    /* Darker blue background on hover */
-}
+    background-color:  #45a049;
+} 
 
 .connect-icons {
     padding-top: 30px;
@@ -218,8 +233,6 @@ footer {
 }
 
 /* CONTACT FORM */
-
-
 .contact-name h2 {
     background-color: chartreuse;
 }
@@ -254,7 +267,7 @@ footer {
     --fc-normal-placeholder-color: #B3B8D0;
 
     /* PRIMARY COLOR | HSL FORMAT*/
-    --fc-primary-color-hue: 199;
+    --fc-primary-color-hue: 144;
     --fc-error-color-hue: 356;
     --fc-primary-hsl: var(--fc-primary-color-hue), 100%, 54%;
     --fc-error-hsl: var(--fc-error-color-hue), 100%, 54%;
@@ -403,9 +416,9 @@ footer {
   }
 
 
-  
+  /* CELLPHONE*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     nav {
         text-align: center;
     }
@@ -414,4 +427,76 @@ footer {
         display: block;
         margin: 10px 0;
     }
+
+    body {
+      background-color: #45a049;
+    }
+
+    /* CELLPHONE HAMBURGER MENU */
+
+    .navbar-nav {
+      display: none;
+  }
+  
+  .navbar-toggle {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+  }
+
+  .icon-bar {
+      background-color: black;
+      height: 3px;
+      width: 25px;
+      display: block;
+      transition: all 0.2s;
+  }
+
+  .icon-bar + .icon-bar {
+    margin-top: 1px;   /* Adjust space betwin the sticks */
+  }
+
+  .collapsed .icon-bar {
+      transform: rotate(-45deg) translateY(5px); /* Adjust translateY value to ifx the "X" */
+  }
+
+  .collapsed .icon-bar:nth-child(2) {
+      opacity: 0;
+  }
+
+  .collapsed .icon-bar:last-child {
+      transform: rotate(45deg) translateY(-4px);  /* Adjust translateY value to ifx the "X" */
+  }
+
+  /* .navbar-collapse {
+      display: none;
+  } */
+
+  .collapsed .navbar-collapse {
+      display: block;
+      width: 100%;
+      text-align: center;
+  }
+
+  .collapsed .navbar-nav {
+      display: block;
+      margin-top: 10px;
+  }
+
+  .collapsed .navbar-nav li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .collapsed .navbar-nav li a {
+      padding: 10px 20px;
+  }
+  .collapsed .navbar-toggle.collapsed .icon-bar {
+    background-color: white;
+}
+
+.collapsed .navbar-toggle.collapsed .icon-bar:nth-child(2) {
+    opacity: 1;
+
+}
 }
