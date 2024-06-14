@@ -533,6 +533,21 @@ body {
   padding-left: 70px;
 }
 
+
+/* Intro*/
+#intro-container {
+  margin-top: 4%; /* Increase margin for better spacing on mobile */
+}
+
+#intro1, #intro2, #intro3 {
+  font-size: 18px; /* Smaller font size for mobile */
+  border-right: 1px solid;
+}
+
+#intro2 {
+  font-size: 24px;
+}
+
 /* Header container */
 .header-container {
   display: flex;
