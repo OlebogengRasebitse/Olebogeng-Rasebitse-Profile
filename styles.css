@@ -114,6 +114,31 @@ a {
     /* color: white; */
 }
 
+/* New Intro */
+
+#intro-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20%;
+}
+
+#intro1, #intro2, #intro3 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  border-right: 2px solid;
+  width: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#intro2 {
+  font-size: 36px;
+  display: block;
+  margin: 10px 0;
+}
+
+
 /* BUTTONS */
 
 .button1 {
