@@ -1,5 +1,7 @@
 # Portfolio Project
- 
+
+ ![screenshot](https://github.com/OlebogengRasebitse/Olebogeng-Rasebitse-Profile/assets/125869833/d933d95b-df97-4a57-a247-341c58b1c852)
+
  ## Welcome to My Digital Portfolio!
 
 This repository showcases my skills and experience in web development. 
