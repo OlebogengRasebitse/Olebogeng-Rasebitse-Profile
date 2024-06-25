@@ -8,6 +8,7 @@ This repository showcases my skills and experience in web development.
 
 * HTML
 * CSS
+* Javascript
 
 **Navigation:**
 
@@ -15,7 +16,7 @@ Explore my portfolio using the navigation bar at the top of the page. Each secti
 
 * **About Me:** Introduces myself and my background.
 * **Projects:** Highlights my key projects, showcasing my capabilities. 
-* **Skills:** Lists my technical skills and expertise.
+* **Skills:** Lists my technical skills and experience.
 * **Contact:** Provides information on how to get in touch.
 
 **Additional Notes:**
