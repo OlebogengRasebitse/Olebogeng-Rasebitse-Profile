@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
   }
 
-  body {
-  font-family: Arial, sans-serif;
-}
+  /* body {
+    /* background-image: url('Images/milad-fakurian-E8Ufcyxz514-unsplash.jpg'); */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-attachment: fixed; /* Ensure the background stays fixed */
+} */
