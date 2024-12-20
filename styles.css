@@ -487,9 +487,8 @@ footer {
   border-radius: 6px;
   box-sizing: border-box;
   background-color: #3DD1E7;
-  color: #fff;
-  /*Button text */
-  */ cursor: pointer;
+  color: #fff;/*Button text */
+  cursor: pointer;
   box-shadow: 0 0 0 0 transparent;
   transition: 125ms all;
 }
