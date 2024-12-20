@@ -524,7 +524,6 @@ footer {
 
 
 /* CELLPHONE*/
-
 @media only screen and (max-width: 900px) {
   nav {
     text-align: center;
@@ -650,7 +649,6 @@ footer {
     align-items: center;
   }
 
-  /* Order the image and text */
   .header-image {
     order: -1;
     /* Move the image to the top */
@@ -690,8 +688,7 @@ footer {
   }
 
   .header-image img {
-    max-width: 200px;
-    /* Reduce the max width for mobile view */
+    max-width: 100%;
     margin-bottom: -100px;
   }
 
